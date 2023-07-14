@@ -13,32 +13,3 @@ ENV APACHE_LOG_DIR /var/log/apache2
 
 EXPOSE 80
 CMD ["apachectl", "-D",  "FOREGROUND"]
-
-
-###
-
-#mkdir html
-
-#docker build -t apachelocal .
-
-#docker container run --name apachetest -p 0.0.0.0:8080:80 -v ./html:/var/www/html apachelocal
-
-
-
-
-#/tmp/hosts/custom_hosts
-
-
-
-
-
-
-
-
-
-
-
-#####docker container run -it [docker_image] /bin/bash
-
-
-
